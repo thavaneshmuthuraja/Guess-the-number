@@ -1,0 +1,34 @@
+<haed>
+    <link rel="stylesheet" href="gussnum.css">
+</haed>
+<h1>Guess the Number</h1>
+<input type="text" id="num">
+<button onclick="check()">Check</button><br>
+<p id="para">You are Right/Wrong</p>
+<p id="score">Your score is :10</p>
+
+<script>
+    var num=document.getElementById("num")
+    var para=document.getElementById("para")
+    var s=10
+    var score=document.getElementById("score")
+    function check()
+    {
+        var rand=Math.floor(Math.random()*10)+1
+        var checknum=Number(num.value)
+        if(rand==checknum)
+        {
+            para.textContent="You are Right !!"
+            alert("You guess correct")
+        }
+        else
+        {
+            s=s-1
+            para.textContent="You are Wrong!!"
+            score.textContent="Your score is:"+s
+
+        }
+
+    }
+
+</script>

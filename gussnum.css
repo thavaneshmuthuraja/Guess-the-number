@@ -1,0 +1,74 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #ff7eb3, #ff758c, #ff7eb3);
+    color: white;
+    margin: 50px;
+    background-image: url("https://th.bing.com/th/id/OIP.hXKmU-U7j_QM-Zayaay3sQHaE8?w=270&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    padding: 12px;
+    width: 60px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 8px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    transition: 0.3s;
+}
+
+input:focus {
+    background: white;
+    color: #ff5277;
+    border-color: #ff5277;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    margin-left: 15px;
+    background: white;
+    color: #ff5277;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: #ff5277;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+#para {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    color: #ffffcc;
+}
+
+#score {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    color: #99ff99;
+}
